@@ -1,0 +1,24 @@
+.custom-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4f46e5;
+    /* Secondary color (customize this as per your color scheme) */
+    background-color: transparent;
+    border: 2px solid #4f46e5;
+    /* Border with the same color */
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.custom-btn:hover {
+    background-color: #4f46e5;
+    /* Change background color on hover */
+    color: white;
+    /* Text color changes to white */
+    border-color: #4f46e5;
+}
